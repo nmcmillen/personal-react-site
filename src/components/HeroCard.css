@@ -1,0 +1,16 @@
+.hero-image {
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-image: url("https://live.staticflickr.com/5118/14549429213_813f37a3c0_k.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    color: white;
+    filter: drop-shadow(4px 0px 10px black);
+    text-align: center;
+}
