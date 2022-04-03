@@ -4,6 +4,10 @@
     color: white;
 }
 
+#headshot-column {
+    align-content: flex-end
+}
+
 #headshot {
     width: 300px;
 }
