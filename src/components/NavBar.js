@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Container, Nav } from 'react-bootstrap'
-// import logo from './images/nm-logo.png'
+import logo from './images/nm-logo.png'
 
 
 export default function NavBar() {
@@ -11,7 +11,7 @@ export default function NavBar() {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              //   src={logo}
+                src={logo}
               width="30"
               height="30"
               className="d-inline-block align-top"
