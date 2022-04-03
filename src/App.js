@@ -3,8 +3,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, Link, Outlet } from "react-router-dom";
 import NavBar from "./components/NavBar";
 import HeroCard from "./components/HeroCard";
-
-
+import AboutMe from "./components/AboutMe";
+import Blog from "./components/Blog";
+import Portfolio from "./components/Portfolio";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -12,7 +14,10 @@ function App() {
     <div>
       <NavBar />
       <HeroCard />
-      <h1>Hello World</h1>
+      <AboutMe />
+      <Blog />
+      <Portfolio />
+      <Contact />
     </div>
   );
 }

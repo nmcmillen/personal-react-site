@@ -1,0 +1,9 @@
+.about-me {
+    background-color: rgb(33,37,41);
+    padding: 2rem;
+    color: white;
+}
+
+#headshot {
+    width: 300px;
+}
