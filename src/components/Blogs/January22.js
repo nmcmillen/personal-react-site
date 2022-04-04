@@ -18,11 +18,9 @@ export default function January22() {
               start an online business but now I've decided to take things into
               my own hands and jump all in to learn how to do it for myself. I'm
               sort of an all in or not at all person as you'll learn along the
-              way.
-              <blockquote>
-                <p>Why tiptoe through life to arrive safely at death?</p>
-              </blockquote>
-              Our first week has already provided some new challenges,
+              way.</p>
+              
+              <p>Our first week has already provided some new challenges,
               especially getting used to the ins-and-outs of github. I initially
               took the Fall <em>Intro to Web</em> class where I learned bits and
               pieces of HTML, CSS, and Javascript just to get my feet wet. Now,

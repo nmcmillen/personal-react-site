@@ -9,7 +9,6 @@ export default function February22() {
         <Accordion.Item eventKey="0">
           <Accordion.Header>Blog #5: Face to Face (2/27/22)</Accordion.Header>
           <Accordion.Body>
-            <h2 id="face-to-face-2-27-22-">Face to Face (2/27/22)</h2>
             <p>
               <strong>
                 What is the number one thing that held you back this week? Why?
