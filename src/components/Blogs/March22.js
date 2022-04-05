@@ -7,15 +7,27 @@ export default function March22() {
       <Accordion defaultActiveKey="0" flush>
         {/* BLOG 9 */}
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Blog #9</Accordion.Header>
+          <Accordion.Header>Blog #9: Command Line Interfaces? (3/27/22)</Accordion.Header>
           <Accordion.Body>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            <p>
+              Now that we have paved our frontend groundwork, we turn towards
+              learning the backend in order to become true “full-stack”
+              developers. Our first step is learning Python, which after some
+              brief reading and examples, doesn’t look too syntactically different from
+              JavaScript in how things are formatted, but I am seeing how it can
+              be more powerful to tie both front and backend together.
+            </p>
+
+            <p>
+              I don’t have almost any experience with using a command-line
+              interface other than something like the windows operating system
+              so I’m not really sure what to expect. I assume you can use it for
+              data entry/extraction or setting up simple games. I have always
+              played around with trading stocks, options, etc. and I know that
+              people will create scripts in order to develop automated trading
+              bots based off of certain parameters they have built with Python
+              which is something I would especially like to learn.
+            </p>
           </Accordion.Body>
         </Accordion.Item>
         {/* BLOG 8 */}
