@@ -2,11 +2,13 @@
     background-color: rgb(33,37,41);
     padding: 2rem;
     color: white;
+    /* margin-left: 0px;
+    margin-right: 0px; */
 }
 
-#headshot-column {
+/* #headshot-column {
     align-content: flex-end
-}
+} */
 
 #headshot {
     width: 300px;
