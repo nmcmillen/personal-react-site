@@ -13,7 +13,7 @@ export default function AboutMe() {
           <img
             id="headshot"
             src={headshot}
-            className="img-fluid"
+            // className="img-fluid"
             alt="nick-mcmillen-headshot"
           />
         </Col>
