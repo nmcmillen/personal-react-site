@@ -1,0 +1,11 @@
+.column-1 {
+    background: red;
+}
+.column-2 {
+    background: blue;
+}
+
+#contact-headshot {
+    width: 200px;
+    border-radius: 50%;
+}

@@ -7,7 +7,7 @@ import todo from "./images/todo.png"
 
 export default function Portfolio() {
   return (
-    <CardGroup>
+    <CardGroup >
       {/* FIRST PROJECT */}
       <Card>
         <Card.Img variant="top" src={tictactoe} />
