@@ -1,18 +1,20 @@
 import React from "react";
 import "./Portfolio.css";
 import { Card, CardGroup, Col, Row } from "react-bootstrap";
+import tictactoe from "./images/tic-tac-toe.png"
+import weather from "./images/weather-app.png"
+import todo from "./images/todo.png"
 
 export default function Portfolio() {
   return (
     <CardGroup>
       {/* FIRST PROJECT */}
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={tictactoe} />
         <Card.Body>
           <Card.Title>TicTacToe</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
+          Placeholder Text
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -22,12 +24,11 @@ export default function Portfolio() {
 
       {/* SECOND PROJECT */}
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={weather} />
         <Card.Body>
           <Card.Title>Weather App</Card.Title>
           <Card.Text>
-            This card has supporting text below as a natural lead-in to
-            additional content.{" "}
+          Placeholder Text
           </Card.Text>
         </Card.Body>
         <Card.Footer>
@@ -37,13 +38,11 @@ export default function Portfolio() {
 
       {/* THIRD PROJECT */}
       <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={todo} />
         <Card.Body>
           <Card.Title>To-Do List</Card.Title>
           <Card.Text>
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This card has even longer content than the
-            first to show that equal height action.
+            Placeholder Text
           </Card.Text>
         </Card.Body>
         <Card.Footer>
