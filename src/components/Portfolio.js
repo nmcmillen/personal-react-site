@@ -1,12 +1,13 @@
 import React from "react";
 import "./Portfolio.css";
-import { Card, CardGroup, Col, Row } from "react-bootstrap";
+import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
 import tictactoe from "./images/tic-tac-toe.png"
 import weather from "./images/weather-app.png"
 import todo from "./images/todo.png"
 
 export default function Portfolio() {
   return (
+    <Container fluid className="p-md-5">
     <CardGroup >
       {/* FIRST PROJECT */}
       <Card>
@@ -50,5 +51,6 @@ export default function Portfolio() {
         </Card.Footer>
       </Card>
     </CardGroup>
+    </Container>
   );
 }

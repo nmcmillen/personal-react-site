@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Blog from "./components/Blog";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
+import { Container } from "react-bootstrap";
 
 
 function App() {
