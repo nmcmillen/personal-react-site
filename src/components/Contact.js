@@ -17,10 +17,10 @@ import portrait from "./images/nick-portrait.jpg";
 
 export default function Contact() {
   return (
-    <Container fluid className="p-md-5">
-      <Row className="justify-content-md-center">
+    <Container fluid className="bg-dark text-light px-md-5 p-3">
+      <Row className="justify-content-center">
         {/* LEFT COLUMN */}
-        <Col className="column-1 align-items-center" sm={6}>
+        <Col className="column-1 align-center" sm={3}>
           <div className="social-icons">
             <FontAwesomeIcon icon={faTwitter} size="lg" />
             <FontAwesomeIcon icon={faYoutube} size="lg" />
@@ -39,7 +39,6 @@ export default function Contact() {
         {/* RIGHT COLUMN */}
         <Col className="column-2" sm={3}>
           <Image fluid className="" id="contact-headshot" src={portrait} />
-          <p>Web Developer</p>
         </Col>
       </Row>
     </Container>
