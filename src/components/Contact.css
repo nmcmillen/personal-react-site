@@ -1,11 +1,14 @@
-.column-1 {
-    background: red;
-}
-.column-2 {
-    background: blue;
+#footer {
+    background-color: #231f20;
+    color: white;
+    text-align: justify;
 }
 
-#contact-headshot {
-    width: 200px;
-    border-radius: 50%;
+#row-edit{
+    max-width: 900px;
+    margin: auto;
+}
+
+#location-text {
+    text-align: left;
 }
