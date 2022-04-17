@@ -8,7 +8,7 @@ import January22 from "./Blogs/January22";
 
 export default function Blog() {
   return (
-    <Container fluid className="p-md-5">
+    <Container fluid className="p-md-5" id="blog-section">
       <Container>
       <h2>Blog</h2>
       <Tabs

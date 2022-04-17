@@ -18,7 +18,7 @@ import portrait from "./images/nick-portrait.jpg";
 
 export default function Contact() {
   return (
-    <Container fluid className="bg-dark text-light px-md-5 p-3">
+    <Container fluid className="bg-dark text-light px-md-5 p-3" id="contact-section">
       <Container>
         <Row className="justify-content-center">
           {/* LEFT COLUMN */}

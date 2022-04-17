@@ -6,7 +6,7 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 export default function AboutMe() {
   return (
     // WORK IN PROGRESS FOR REACT BOOTSTRAP
-    <Container fluid className="about-me bg-dark text-light">
+    <Container fluid className="about-me bg-dark text-light" id="about-me-section">
       <Container className="py-5">
       <div className="d-lg-flex align-items-center justify-content-center">
         <img className="headshot img-fluid" src={headshot} alt="" />

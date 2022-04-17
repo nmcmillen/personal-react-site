@@ -15,9 +15,9 @@ function App() {
     <div>
       {/* <Container> */}
         <NavBar />
-        <HeroCard id='hero'/>
-        <AboutMe id='about-me'/>
-        <Blog id='blog'/>
+        <HeroCard />
+        <AboutMe />
+        <Blog />
         <Portfolio />
         <Contact />
       {/* </Container> */}
