@@ -1,2 +1,17 @@
+/* .leftside {
+    display: flex;
+    align-items: center;
+  } */
 
+#contact-headshot {
+    max-width: 300px;
+}
 
+.social-icons a {
+    padding-right: .5em;
+    color: white;
+ }
+
+ .social-icons a:hover {
+     color: red;
+ } 

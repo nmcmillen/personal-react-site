@@ -6,7 +6,8 @@ import { Button, Col, Container, Image, Row } from "react-bootstrap";
 export default function AboutMe() {
   return (
     // WORK IN PROGRESS FOR REACT BOOTSTRAP
-    <Container fluid className="about-me bg-dark text-light px-md-5 py-5">
+    <Container fluid className="about-me bg-dark text-light">
+      <Container className="py-5">
       <div className="d-lg-flex align-items-center justify-content-center">
         <img className="headshot img-fluid" src={headshot} alt="" />
         <div className="px-lg-5">
@@ -33,6 +34,7 @@ export default function AboutMe() {
           </p>
         </div>
       </div>
+      </Container>
     </Container>
   );
 }

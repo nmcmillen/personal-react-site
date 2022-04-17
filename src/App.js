@@ -13,12 +13,14 @@ import { Container } from "react-bootstrap";
 function App() {
   return (
     <div>
-      <NavBar />
-      <HeroCard />
-      <AboutMe />
-      <Blog />
-      <Portfolio />
-      <Contact />
+      {/* <Container> */}
+        <NavBar />
+        <HeroCard id='hero'/>
+        <AboutMe id='about-me'/>
+        <Blog id='blog'/>
+        <Portfolio />
+        <Contact />
+      {/* </Container> */}
     </div>
   );
 }

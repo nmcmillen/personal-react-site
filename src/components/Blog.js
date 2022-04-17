@@ -9,6 +9,7 @@ import January22 from "./Blogs/January22";
 export default function Blog() {
   return (
     <Container fluid className="p-md-5">
+      <Container>
       <h2>Blog</h2>
       <Tabs
         defaultActiveKey="april22"
@@ -28,6 +29,7 @@ export default function Blog() {
           <January22/>
         </Tab>
       </Tabs>
+      </Container>
     </Container>
   );
 }
