@@ -18,11 +18,11 @@ import portrait from "./images/nick-portrait.jpg";
 
 export default function Contact() {
   return (
-    <Container fluid className="bg-dark text-light px-md-5 p-3" id="contact-section">
-      <Container>
+    <Container fluid className="bg-dark" id="contact-section">
+      <Container  className="text-light p-3">
         <Row className="justify-content-center">
           {/* LEFT COLUMN */}
-          <Col className="column-1" sm={3}>
+          <Col className="column-1 justify-content-center" md={3}>
             <h3>Nick McMillen</h3>
             <h5>Full Stack Web Developer</h5>
             <div className="social-icons">
@@ -49,7 +49,7 @@ export default function Contact() {
             <br />
           </Col>
           {/* RIGHT COLUMN */}
-          <Col className="column-2" sm={3}>
+          <Col className="column-2" md={3}>
             <Image className="" id="contact-headshot" src={portrait} />
           </Col>
         </Row>

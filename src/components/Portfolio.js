@@ -12,10 +12,24 @@ export default function Portfolio() {
         <h2>Portfolio</h2>
         <CardGroup>
           {/* FIRST PROJECT */}
-          <Card>
+          <Card className="pfolio-zoom">
             <Card.Img variant="top" src={tictactoe} />
             <Card.Body>
               <Card.Title>TicTacToe</Card.Title>
+              <div className="pfolio-links">
+                <a
+                  href="https://nmcmillen.github.io/tictactoe/"
+                  target="_blank"
+                >
+                  Vew Live
+                </a>
+                <a
+                  href="https://github.com/nmcmillen/tictactoe"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
               <Card.Text>
                 A simple game of Tic Tac Toe using JavaScript to handle clicks
                 of X and 0. First to 3 in a row wins!
@@ -29,10 +43,24 @@ export default function Portfolio() {
           </Card>
 
           {/* SECOND PROJECT */}
-          <Card>
+          <Card className="pfolio-zoom">
             <Card.Img variant="top" src={weather} />
             <Card.Body>
               <Card.Title>Weather App</Card.Title>
+              <div className="pfolio-links">
+                <a
+                  href="https://nmcmillen.github.io/weather-app/"
+                  target="_blank"
+                >
+                  Vew Live
+                </a>
+                <a
+                  href="https://github.com/nmcmillen/weather-app"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
               <Card.Text>
                 Using the OpenWeatherMap API, search for current weather in
                 Kelvin, Fahrenheit, and Celsius of a given zip code within the
@@ -47,10 +75,24 @@ export default function Portfolio() {
           </Card>
 
           {/* THIRD PROJECT */}
-          <Card>
+          <Card className="pfolio-zoom">
             <Card.Img variant="top" src={todo} />
             <Card.Body>
               <Card.Title>To-Do List</Card.Title>
+              <div className="pfolio-links">
+                <a
+                  href="https://nmcmillen.github.io/to-do-list/"
+                  target="_blank"
+                >
+                  Vew Live
+                </a>
+                <a
+                  href="https://github.com/nmcmillen/to-do-list"
+                  target="_blank"
+                >
+                  Github
+                </a>
+              </div>
               <Card.Text>
                 Jot down a To-do item that is saved within local storage so you
                 can come back to it later. Items can be individually or grouped

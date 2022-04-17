@@ -9,7 +9,7 @@ export default function HeroCard() {
         <div className="hero-text">
           <h1>DRIVING FORWARD</h1>
           <p>From Professional Racing Driver to Full Stack Web Developer</p>
-          <Button variant="danger">About Me</Button>
+          <Button href="#about-me-section" variant="danger">About Me</Button>
         </div>
       </Container>
     </div>
