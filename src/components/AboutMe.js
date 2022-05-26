@@ -1,7 +1,7 @@
 import React from "react";
 import "./AboutMe.css";
 import headshot from "./images/headshot.jpg";
-import { Button, Col, Container, Image, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default function AboutMe() {
   return (

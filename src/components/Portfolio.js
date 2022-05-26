@@ -1,6 +1,6 @@
 import React from "react";
 import "./Portfolio.css";
-import { Card, CardGroup, Col, Container, Row } from "react-bootstrap";
+import { Card, CardGroup, Container} from "react-bootstrap";
 import tictactoe from "./images/tic-tac-toe.png";
 import weather from "./images/weather-app.png";
 import todo from "./images/todo.png";
@@ -21,7 +21,7 @@ export default function Portfolio() {
                   href="https://nmcmillen.github.io/tictactoe/"
                   target="_blank"
                 >
-                  Vew Live
+                  View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/tictactoe"
@@ -52,7 +52,7 @@ export default function Portfolio() {
                   href="https://nmcmillen.github.io/weather-app/"
                   target="_blank"
                 >
-                  Vew Live
+                  View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/weather-app"
@@ -84,7 +84,7 @@ export default function Portfolio() {
                   href="https://nmcmillen.github.io/to-do-list/"
                   target="_blank"
                 >
-                  Vew Live
+                  View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/to-do-list"

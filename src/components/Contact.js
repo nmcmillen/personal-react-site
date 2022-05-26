@@ -1,19 +1,17 @@
 import React from "react";
 import "./Contact.css";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import ReactDOM from "react-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
 import {
-  fab,
   faGithub,
   faInstagram,
   faLinkedin,
   faTwitter,
-  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 import portrait from "./images/nick-portrait.jpg";
+// import { library } from "@fortawesome/fontawesome-svg-core";
+// import ReactDOM from "react-dom";
+// import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 // FONT AWESOME ICONS CAN BE CONTROLLED BY FONT-SIZE IN CSS
 
 export default function Contact() {
