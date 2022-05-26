@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/personal-react-site/static/css/main.da2a056b.css",
-    "main.js": "/personal-react-site/static/js/main.22ce1c72.js",
+    "main.css": "/personal-react-site/static/css/main.9daf7651.css",
+    "main.js": "/personal-react-site/static/js/main.e9b7157d.js",
     "static/js/787.c3e2f841.chunk.js": "/personal-react-site/static/js/787.c3e2f841.chunk.js",
     "static/media/headshot.jpg": "/personal-react-site/static/media/headshot.f22924a1307a5590a334.jpg",
     "static/media/gtr-paul-ricard.jpg": "/personal-react-site/static/media/gtr-paul-ricard.f7b470f6617716782c1d.jpg",
@@ -10,12 +10,12 @@
     "static/media/todo.png": "/personal-react-site/static/media/todo.c9360fea5f481c298e29.png",
     "static/media/tic-tac-toe.png": "/personal-react-site/static/media/tic-tac-toe.a5a8a7b61be4b825ccec.png",
     "index.html": "/personal-react-site/index.html",
-    "main.da2a056b.css.map": "/personal-react-site/static/css/main.da2a056b.css.map",
-    "main.22ce1c72.js.map": "/personal-react-site/static/js/main.22ce1c72.js.map",
+    "main.9daf7651.css.map": "/personal-react-site/static/css/main.9daf7651.css.map",
+    "main.e9b7157d.js.map": "/personal-react-site/static/js/main.e9b7157d.js.map",
     "787.c3e2f841.chunk.js.map": "/personal-react-site/static/js/787.c3e2f841.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da2a056b.css",
-    "static/js/main.22ce1c72.js"
+    "static/css/main.9daf7651.css",
+    "static/js/main.e9b7157d.js"
   ]
 }
