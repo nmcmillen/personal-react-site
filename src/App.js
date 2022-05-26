@@ -12,12 +12,14 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
-      <NavBar />
-      <HeroCard />
-      <AboutMe />
-      <Blog />
-      <Portfolio />
-      <Contact />
+      {/* <Container> */}
+        <NavBar />
+        <HeroCard />
+        <AboutMe />
+        <Blog />
+        <Portfolio />
+        <Contact />
+      {/* </Container> */}
     </div>
   );
 }

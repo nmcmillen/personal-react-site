@@ -1,0 +1,10 @@
+.pfolio-zoom:hover {
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.pfolio-links a {
+    color: black;
+    display: inline;
+    margin-right: .5rem;
+}

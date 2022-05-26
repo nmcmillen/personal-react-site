@@ -1,39 +1,40 @@
 import React from "react";
 import "./AboutMe.css";
 import headshot from "./images/headshot.jpg";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 export default function AboutMe() {
   return (
     // WORK IN PROGRESS FOR REACT BOOTSTRAP
-    <Container fluid className="about-me">
-      <Row>
-        <Col id="headshot-column">
-          {/* HOW DO YOU FLOAT IMAGE TO RIGHT??? */}
-          <img
-            id="headshot"
-            src={headshot}
-            // className="img-fluid"
-            alt="nick-mcmillen-headshot"
-          />
-        </Col>
-        <Col>
-          Nick McMillen was born in Salem, Oregon to a family of racers. The bug
-          started early of course but he actually started racing motocross at
-          the young age of 5. He raced at a serious level until about age 14
-          when he was unable to continue racing due to the extensive cost and
-          time his parents had to take off in order to make it to the national
-          races and help progress his career. He knew he wanted to do something
-          in the field of motorsports so if Nick couldn’t be the racer, he at
-          least wanted to work with them. Nick set out on getting his Masters in
-          Business Administration as well as a Sports Marketing degree in hopes
-          he could work with the athletes and be involved in motorsports. While
-          going to school Nick came across a competition called GT Academy where
-          Nissan and Gran Turismo (racing game) partner up to find the best
-          virtual racing drivers in the world and turn them into real
-          professional racing drivers.
-        </Col>
-      </Row>
+    <Container fluid className="about-me bg-dark text-light" id="about-me-section">
+      <Container className="py-5">
+      <div className="d-lg-flex align-items-center justify-content-center">
+        <img className="headshot img-fluid" src={headshot} alt="" />
+        <div className="px-lg-5">
+          <h1>
+            About <span className="text-danger"> Me </span>
+          </h1>
+          <p className="lead my-4">
+            "Video games will get you nowhere” is something I heard as a child,
+            but that didn't stop me from competing in a video game competition
+            that would lead me to traveling the world working in the motorsports
+            industry as a professional racecar driver, coach, and brand
+            ambassador. <br/>
+            <br/>
+            A self-starter and quick learner who enjoys a fast paced
+            environment and pushing the boundaries of what is possible. Diverse
+            background with experience in a little bit of everything from
+            professional media training and communications to marketing and
+            project management. <br/>
+            <br/>
+            After starting my own web-based company, I found
+            a joy for building and developing which led me to becoming a
+            Full-Stack Web Developer where I can create, learn, and progress
+            every day.
+          </p>
+        </div>
+      </div>
+      </Container>
     </Container>
   );
 }

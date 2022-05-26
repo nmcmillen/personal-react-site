@@ -23,10 +23,10 @@ export default function NavBar() {
             <Navbar.Collapse id="basic-navbar-nav">
               {/* MENU LINKS */}
               <Nav.Link href="/">HOME</Nav.Link>
-              <Nav.Link href="/">ABOUT</Nav.Link>
-              <Nav.Link href="/">BLOG</Nav.Link>
-              <Nav.Link href="/">PORTFOLIO</Nav.Link>
-              <Nav.Link href="/">CONTACT</Nav.Link>
+              <Nav.Link href="#about-me-section">ABOUT</Nav.Link>
+              <Nav.Link href="#blog-section">BLOG</Nav.Link>
+              <Nav.Link href="#portfolio-section">PORTFOLIO</Nav.Link>
+              <Nav.Link href="#contact-section">CONTACT</Nav.Link>
             </Navbar.Collapse>
           </Nav>
         </Container>

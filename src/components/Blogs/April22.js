@@ -6,6 +6,45 @@ export default function April22() {
     <div>
       <Accordion defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
+          <Accordion.Header>
+            Blog #11: Same But Different (4/10/22)
+          </Accordion.Header>
+          <Accordion.Body>
+            <p>
+              As we dive in more with Python, I continue to see the similarities
+              it has with Javascript. It’s almost like a “Copy my homework, but
+              change a couple words so it doesn’t look like you copied me”
+              situation where the two share similar formatting and methods.
+              Initial function set up is nearly the same, if else statements,
+              arrays in JS are called lists in Python but are the same thing,
+              etc. Learning JavaScript felt more difficult at first but I think
+              that made learning Python a whole lot smoother. Python is a
+              familiar face that reads almost like plain english with cleaner
+              formatting over JS. Then add in an extra pinch of salt that kicks
+              the flavor up a notch in terms of overall simplicity and
+              capability. After struggling through JS to then get easily
+              acquainted with Python, I can see where it’s becoming one of the
+              most popular and easiest languages to learn.
+            </p>
+
+            <p>
+              The more I learn with Python, I’m leaning towards building an
+              automated stock trading bot. With a plethora of stock API’s and
+              documentation out there for Python, it’s a task I think I could
+              take on and am genuinely interested in learning. Automation
+              fascinates me and seems way over my head, but I’m starting to
+              understand what it actually takes to build. There are a couple
+              Python packages/API’s through Robin Hood and Yahoo Finance that
+              I’ve seen so far that I’m going to look into more. Potentially
+              learning how to build a GUI to work with the bot is another added
+              stretch I think is doable. Still unsure where I want to go since
+              there are so many options for a final project, so I’ll try to
+              narrow that down shortly.
+            </p>
+          </Accordion.Body>
+        </Accordion.Item>
+
+        <Accordion.Item eventKey="1">
           <Accordion.Header>Blog #10: Rounding 3rd (4/3/22)</Accordion.Header>
           <Accordion.Body>
             <p>
