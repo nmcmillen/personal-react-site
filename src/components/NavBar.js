@@ -22,7 +22,7 @@ export default function NavBar() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               {/* MENU LINKS */}
-              <Nav.Link href="/">HOME</Nav.Link>
+              <Nav.Link href="#home">HOME</Nav.Link>
               <Nav.Link href="#about-me-section">ABOUT</Nav.Link>
               <Nav.Link href="#blog-section">BLOG</Nav.Link>
               <Nav.Link href="#portfolio-section">PORTFOLIO</Nav.Link>
