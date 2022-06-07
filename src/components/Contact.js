@@ -37,14 +37,6 @@ export default function Contact() {
                 <FontAwesomeIcon icon={faInstagram} size="lg" />
                 </a>
             </div>
-            <strong>Awesome Inc. Bootcamp</strong>
-            <br />
-            348 E Main St.
-            <br />
-            Lexington, KY 40507
-            <br />
-            Phone: (123) 456-7890
-            <br />
           </Col>
           {/* RIGHT COLUMN */}
           <Col className="column-2" md={3}>
@@ -55,8 +47,4 @@ export default function Contact() {
     </Container>
   );
 }
-
-// <FontAwesomeIcon icon={faCoffee} size="lg" />
-// <FontAwesomeIcon icon={faYoutube} size="lg" />
-// <FontAwesomeIcon icon={faGithub} size="3x" />
 

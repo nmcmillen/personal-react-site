@@ -20,12 +20,14 @@ export default function Portfolio() {
                 <a
                   href="https://nmcmillen.github.io/tictactoe/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/tictactoe"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
@@ -51,12 +53,14 @@ export default function Portfolio() {
                 <a
                   href="https://nmcmillen.github.io/weather-app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/weather-app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
@@ -83,12 +87,14 @@ export default function Portfolio() {
                 <a
                   href="https://nmcmillen.github.io/to-do-list/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   View Live
                 </a>
                 <a
                   href="https://github.com/nmcmillen/to-do-list"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Github
                 </a>
