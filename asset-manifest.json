@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/personal-react-site/static/css/main.9daf7651.css",
-    "main.js": "/personal-react-site/static/js/main.853b1d68.js",
+    "main.css": "/personal-react-site/static/css/main.d2f75102.css",
+    "main.js": "/personal-react-site/static/js/main.6f09a537.js",
     "static/js/787.c3e2f841.chunk.js": "/personal-react-site/static/js/787.c3e2f841.chunk.js",
     "static/media/headshot.jpg": "/personal-react-site/static/media/headshot.f22924a1307a5590a334.jpg",
     "static/media/gtr-paul-ricard.jpg": "/personal-react-site/static/media/gtr-paul-ricard.f7b470f6617716782c1d.jpg",
     "static/media/weather-app.png": "/personal-react-site/static/media/weather-app.bc6d109a461a602b9226.png",
     "static/media/nick-portrait.jpg": "/personal-react-site/static/media/nick-portrait.6f4da4eab96e9626fb6c.jpg",
+    "static/media/ocular-shot.png": "/personal-react-site/static/media/ocular-shot.2a06d461c91d0784a71f.png",
     "static/media/todo.png": "/personal-react-site/static/media/todo.c9360fea5f481c298e29.png",
     "static/media/tic-tac-toe.png": "/personal-react-site/static/media/tic-tac-toe.a5a8a7b61be4b825ccec.png",
     "index.html": "/personal-react-site/index.html",
-    "main.9daf7651.css.map": "/personal-react-site/static/css/main.9daf7651.css.map",
-    "main.853b1d68.js.map": "/personal-react-site/static/js/main.853b1d68.js.map",
+    "main.d2f75102.css.map": "/personal-react-site/static/css/main.d2f75102.css.map",
+    "main.6f09a537.js.map": "/personal-react-site/static/js/main.6f09a537.js.map",
     "787.c3e2f841.chunk.js.map": "/personal-react-site/static/js/787.c3e2f841.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9daf7651.css",
-    "static/js/main.853b1d68.js"
+    "static/css/main.d2f75102.css",
+    "static/js/main.6f09a537.js"
   ]
 }
